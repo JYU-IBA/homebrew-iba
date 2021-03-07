@@ -28,7 +28,7 @@ int main() {
     return 0;
 }
 EOS
-  system ENV.cc,"-I#{include}", "test.c", "-L#{lib}", "-ljibal", "-o", "test"
+  system ENV.cc,"-I#{include}/jibal", "test.c", "-L#{lib}", "-ljibal", "-o", "test"
   system "./test"
   end
 end
