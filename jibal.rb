@@ -17,14 +17,12 @@ class Jibal < Formula
   test do
   (testpath/"test.c").write <<~EOS
 #include <jibal.h>
-#include <jibal_defaults.h>
 #include <stdio.h>
 int main() {
     jibal jibal;
     jibal.units = jibal_units_default();
     if(!jibal.units)
         return -1;
-    fprintf(stderr, "JIBAL version %s, library version %s\n", JIBAL_VERSION, jibal_version());
     return 0;
 }
 EOS
