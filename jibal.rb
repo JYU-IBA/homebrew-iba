@@ -3,6 +3,7 @@ class Jibal < Formula
   homepage "https://github.com/JYU-IBA/jibal/"
   url "https://github.com/JYU-IBA/jibal/archive/v0.3.6.tar.gz"
   sha256 "0ab367d51c931a94c1829cadebaaccf3b61ee173e8a9b4b7c96087f929511d35"
+  head "https://github.com/JYU-IBA/jibal.git"
   depends_on "cmake" => :build
   depends_on "gsl"
 
