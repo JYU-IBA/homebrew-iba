@@ -1,5 +1,6 @@
 class JabsCli < Formula
-  desc "Jaakko's Backscattering Simulator (JaBS) command line version"
+  desc "Jaakko's Backscattering Simulator (JaBS) command-line version"
+  head "https://github.com/JYU-IBA/jabs.git"
   homepage "https://github.com/JYU-IBA/jabs/"
   url "https://github.com/JYU-IBA/jabs/archive/v0.6.0.tar.gz"
   sha256 "a563530ddba1c4c7c4928a9ea1cc8631f141eb37dedbdd83701de7955e2be4cd"
