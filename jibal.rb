@@ -27,7 +27,7 @@ class Jibal < Formula
         return 0;
       }
     EOS
-  system ENV.cc, "-I#{include}/jibal", "test.c", "-L#{lib}", "-ljibal", "-o", "test"
-  system "./test"
+    system ENV.cc, "-I#{include}/jibal", "test.c", "-L#{lib}", "-ljibal", "-o", "test"
+    system "./test"
   end
 end
