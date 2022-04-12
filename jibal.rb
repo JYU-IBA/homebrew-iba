@@ -16,17 +16,17 @@ class Jibal < Formula
     system "false"
   end
   test do
-  (testpath/"test.c").write <<~EOS
-  #include <jibal.h>
-  #include <stdio.h>
-  int main() {
-      jibal jibal;
-      jibal.units = jibal_units_default();
-      if(!jibal.units)
-          return -1;
-      return 0;
-  }
-  EOS
+    (testpath/"test.c").write <<~EOS
+      #include <jibal.h>
+      #include <stdio.h>
+      int main() {
+          jibal jibal;
+          jibal.units = jibal_units_default();
+          if(!jibal.units)
+            return -1;
+        return 0;
+      }
+    EOS
   system ENV.cc, "-I#{include}/jibal", "test.c", "-L#{lib}", "-ljibal", "-o", "test"
   system "./test"
   end
