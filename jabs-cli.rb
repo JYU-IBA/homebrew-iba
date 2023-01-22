@@ -1,8 +1,8 @@
 class JabsCli < Formula
   desc "Jaakko's Backscattering Simulator (JaBS) command-line version"
   homepage "https://github.com/JYU-IBA/jabs/"
-  url "https://github.com/JYU-IBA/jabs/archive/v0.6.5.tar.gz"
-  sha256 "64f8ecef3d1775cc5574119523f95618c6fc6ca5e4d029571626a148435e0f8c"
+  url "https://github.com/JYU-IBA/jabs/archive/v0.6.7.tar.gz"
+  sha256 "6d72115fb7f23d28f7c60e2a442009c7e6b762c6c9d0071fff30a94924ee6659"
   head "https://github.com/JYU-IBA/jabs.git", branch: "main"
   depends_on "cmake" => :build
   depends_on "gsl"
