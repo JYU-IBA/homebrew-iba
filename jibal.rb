@@ -1,8 +1,8 @@
 class Jibal < Formula
   desc "Jyväskylä ion beam analysis library (JIBAL)"
   homepage "https://github.com/JYU-IBA/jibal/"
-  url "https://github.com/JYU-IBA/jibal/archive/v0.3.9.tar.gz"
-  sha256 "c7a0364b255f15841c759bb141deb4cb5c11deb8b695054ad5326adbbac68e31"
+  url "https://github.com/JYU-IBA/jibal/archive/v0.3.11.tar.gz"
+  sha256 "2b916f7c725a2f298a7b88417296fa15faa0e71e578a812857066de7177562eb"
   head "https://github.com/JYU-IBA/jibal.git"
   depends_on "cmake" => :build
   depends_on "gsl"
