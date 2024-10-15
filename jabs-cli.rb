@@ -7,7 +7,7 @@ class JabsCli < Formula
   depends_on "cmake" => :build
   depends_on "gsl"
   depends_on "jibal"
-  depends_on "open-mpi" => :recommended
+  depends_on "libomp" => :recommended
   depends_on "readline" => :recommended
   uses_from_macos "libxml2"
 
